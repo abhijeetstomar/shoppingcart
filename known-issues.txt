@@ -1,0 +1,5 @@
+1. Chrome Version 63.0.3239.132 (Official Build) (64-bit): 
+   If the browser window is minimised beyond 991px and then enlarged, the
+   vertical alignment of the table is disturbed and the page needs to be 
+   refreshed to be displayed as intended. This is due to a media query bug in 
+   Chrome and won't be a problem in other browsers.

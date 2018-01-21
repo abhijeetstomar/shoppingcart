@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Shopping Cart</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<!-- Header bar -->
+			<header>
+				<h1></h1>
+			</header>
+			<!-- Order Summary Title -->
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10" id="summary">
+					<a href=""><img style="padding-bottom: 14px" src="images/arrow.png"></a>
+					Order Summary
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<!-- Main Body -->
+			<div class="row">
+				<!-- Item Details -->
+				<div class="col-md-1"></div>
+				<table class="col-md-7">
+						<tr class="row">
+							<th class="col-md-7 text-left">Items (7)</th>
+							<th class="col-md-1">&nbsp;</th>
+							<th class="col-md-1 text-center">Qty</th>
+							<th class="col-md-1">&nbsp;</th>
+							<th class="col-md-2 text-center">Price</th>
+						</tr>
+						<tr class="row">
+							<td class="col-md-7 datafirst">
+								<!-- xs is non-stacking class -->
+								<img class="col-xs-2 imgdata" src="images/placeholder.png">
+								<div class="col-xs-9 datatext">Item 1</div>
+								<img class="col-xs-1 imgdelete clickable" src="images/delete.png">
+							</td>
+							<td class="col-md-1 qty text-right clickable">&#8211;</td>
+							<td class="col-md-1 datasecond text-center">1</td>
+							<td class="col-md-1 qty text-left clickable">+</td>
+							<td class="col-md-2 font-bold text-center">$25</td>
+						</tr>
+						<tr class="row">
+							<td class="col-md-7 datafirst">
+								<img class="col-xs-2 imgdata" src="images/placeholder.png">
+								<div class="col-xs-9 datatext">Item 2</div>
+								<img class="col-xs-1 imgdelete clickable" src="images/delete.png">
+							</td>
+							<td class="col-md-1 qty text-right clickable">&#8211;</td>
+							<td class="col-md-1 datasecond text-center">1</td>
+							<td class="col-md-1 qty text-left clickable">+</td>
+							<td class="col-md-2 font-bold text-center">$19</td>
+						</tr>
+						<tr class="row">
+							<td class="col-md-7 datafirst">
+								<img class="col-xs-2 imgdata" src="images/placeholder.png">
+								<div class="col-xs-9 datatext">Item 3</div>
+								<img class="col-xs-1 imgdelete clickable" src="images/delete.png">
+							</td>
+							<td class="col-md-1 qty text-right clickable">&#8211;</td>
+							<td class="col-md-1 datasecond text-center">2</td>
+							<td class="col-md-1 qty text-left clickable">+</td>
+							<td class="col-md-2 font-bold text-center">$03</td>
+						</tr>
+						<tr class="row">
+							<td class="col-md-7 datafirst">
+								<img class="col-xs-2 imgdata" src="images/placeholder.png">
+								<div class="col-xs-9 datatext">Item 4</div>
+								<img class="col-xs-1 imgdelete clickable" src="images/delete.png">
+							</td>
+							<td class="col-md-1 qty text-right clickable">&#8211;</td>
+							<td class="col-md-1 datasecond text-center">1</td>
+							<td class="col-md-1 qty text-left clickable">+</td>
+							<td class="col-md-2 font-bold text-center">$51</td>
+						</tr>
+						<tr class="row">
+							<td class="col-md-7 datafirst">
+								<img class="col-xs-2 imgdata" src="images/placeholder.png">
+								<div class="col-xs-9 datatext">Item 5</div>
+								<img class="col-xs-1 imgdelete clickable" src="images/delete.png">
+							</td>
+							<td class="col-md-1 qty text-right clickable">&#8211;</td>
+							<td class="col-md-1 datasecond text-center">1</td>
+							<td class="col-md-1 qty text-left clickable">+</td>
+							<td class="col-md-2 font-bold text-center">$25</td>
+						</tr>
+				</table>
+				<!-- Totals -->
+				<div class="col-md-3" id="total">
+					<p class="font-bold">Total</p>
+					<div class="row">
+						<div class="col-xs-6">Items (7)</div>
+						<div class="col-xs-1">:</div>
+						<div class="col-xs-3">$138.00</div>
+					</div>
+					<div class="row">&nbsp;</div>
+					<div class="row">
+						<div class="col-xs-6">Discount</div>
+						<div class="col-xs-1">:</div>
+						<div class="col-xs-3">-$3.00</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">Type discount</div>
+						<div class="col-xs-1">:</div>
+						<div class="col-xs-3">-$10.00</div>
+					</div>
+					<div class="row" id="final-total">
+						<div class="col-xs-6">Order total</div>
+						<div class="col-xs-4 font-bold">$125.00</div>
+					</div>
+				</div> <!-- Totals end -->
+				<div class="col-md-1"></div>
+			</div> <!-- Main Body end -->
+		</div> <!-- container end -->
+	</body>
+</html>
